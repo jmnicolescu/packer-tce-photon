@@ -67,8 +67,9 @@ export GOVC_NETWORK="${VSPHERE_NETWORK_PG}"
 
 # Oracle Linux / Ubuntu
 # export MY_IP_ADDRESS=`ifconfig ens192 | grep '192.168.' | awk '{ print $2}'`
-
+# export MY_DOMAIN_NAME="flexlab.local"
 # Photon OS
 export MY_IP_ADDRESS=`ifconfig eth0 | grep '192.168.' | awk '{print $2}' | cut -d ":" -f2`
+export MY_DOMAIN_NAME="flexlab.local"
 
 export METALLB_VIP_RANGE="192.168.130.240-192.168.130.250"

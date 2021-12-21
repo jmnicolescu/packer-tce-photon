@@ -19,6 +19,6 @@ SHORT_HOST=`hostname`
 
 echo "Updating /etc/hosts file."
 sed -i '/'${SHORT_HOST}'/ d' /etc/hosts
-echo "${MY_IP_ADDRESS} ${SHORT_HOST}.flexlab.local ${SHORT_HOST}" >>/etc/hosts
+echo "${MY_IP_ADDRESS} ${SHORT_HOST}.${MY_DOMAIN_NAME} ${SHORT_HOST}" >>/etc/hosts
 
 echo "Done 31-update-etc-hosts.sh"
