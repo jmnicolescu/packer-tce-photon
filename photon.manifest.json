@@ -1,0 +1,281 @@
+{
+  "builds": [
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638738269,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 270840
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4120
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 4235984896
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "438d2964-e03f-c293-e276-6ded6dc544c5",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638766213,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 270840
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4120
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 4098555904
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "7d92d101-0270-21ec-3196-8031e375ad9b",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638769518,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 270840
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4085
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 5892669440
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "e2ed9615-8fba-c8e0-7e8f-8b3459bd3610",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638778923,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 0
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 0
+        },
+        {
+          "name": "photon_disk-flat.vmdk",
+          "size": 0
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 0
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "59f0a856-5b14-523d-e441-be8c51fefe2c",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1638791005,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "ccfc2244-be02-5459-be31-49faa87ce4fa",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1638798085,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "d03ed87f-110e-34e3-7ede-eae0c105d555",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1638801100,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "bea05b10-fb64-4ebb-3647-6ea5266609b7",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638814499,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 8684
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4113
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 5690490880
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "3df93cb1-a08d-27db-29f3-33dad4687ba3",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1638815151,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 0
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 0
+        },
+        {
+          "name": "photon_disk-flat.vmdk",
+          "size": 0
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 0
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "dab1c8fc-7ceb-1a27-ece0-310f17731e22",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1639728941,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 8684
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4101
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 1488388096
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "5eba09c3-0066-707a-03c4-e98b8b55fc06",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vmware-iso",
+      "build_time": 1639759030,
+      "files": [
+        {
+          "name": "photon.nvram",
+          "size": 8684
+        },
+        {
+          "name": "photon.vmsd",
+          "size": 0
+        },
+        {
+          "name": "photon.vmx",
+          "size": 4122
+        },
+        {
+          "name": "photon.vmxf",
+          "size": 261
+        },
+        {
+          "name": "photon_disk.vmdk",
+          "size": 7526875136
+        }
+      ],
+      "artifact_id": "photon",
+      "packer_run_uuid": "1e627d96-12d4-ed78-1d62-45149e6cbf4f",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1639765399,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "589ca216-214c-bff0-dffe-28fd134120b9",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "589ca216-214c-bff0-dffe-28fd134120b9"
+}

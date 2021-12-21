@@ -1,0 +1,19 @@
+# Cache objects
+packer_cache/
+iso/
+ova/
+tkg/
+tce/
+output/
+output_directory/
+
+# Crash log
+crash.log
+
+# For built boxes
+ubuntu.manifest.json
+ubuntu.manifest.json.lock
+
+.DS_Store
+.set_env 
+.set_pkr_env
