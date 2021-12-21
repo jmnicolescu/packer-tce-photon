@@ -8,7 +8,13 @@
   "install_linux_esx": true,
   "eject_cdrom": true,
   "packagelist_file": "packages_minimal.json",
-  "additional_packages": ["ca-certificates"],
+  "additional_packages": [
+      "openssl",
+      "openssl-c_rehash",
+      "ca-certificates",
+      "curl",
+      "wget"
+  ],
   "postinstall": [
       "#!/bin/sh",
       "sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config",

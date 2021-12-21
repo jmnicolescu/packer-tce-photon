@@ -20,7 +20,7 @@ tdnf makecache
 tdnf -y update
 
 echo "Installing Additional Packages..."
-tdnf -y install logrotate wget unzip tar gpg
+tdnf -y install logrotate zip unzip make autoconf tar gpg jq
 tdnf -y install linux-esx python3-pip tmux
 
 # setup profile

@@ -275,7 +275,34 @@
       "artifact_id": "photon",
       "packer_run_uuid": "589ca216-214c-bff0-dffe-28fd134120b9",
       "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1640081115,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "b3c9081b-5f76-3ae6-453e-7eb4100cd847",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1640082732,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "0953f812-40c8-23a3-f2e2-e82d0430a768",
+      "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1640095349,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "f3c1b60b-f5c6-ed6a-badd-e652da094f90",
+      "custom_data": null
     }
   ],
-  "last_run_uuid": "589ca216-214c-bff0-dffe-28fd134120b9"
+  "last_run_uuid": "f3c1b60b-f5c6-ed6a-badd-e652da094f90"
 }
