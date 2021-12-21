@@ -30,16 +30,16 @@ export OCTANT_VERSION="0.25.0"
 
 export MGMT_CLUSTER_NAME="tce-management"
 export WKLD_CLUSTER_NAME="tce-workload"
-export MGMT_VSPHERE_CONTROL_PLANE_ENDPOINT="10.8.45.99"
-export WKLD_VSPHERE_CONTROL_PLANE_ENDPOINT="10.8.45.100"
+export MGMT_VSPHERE_CONTROL_PLANE_ENDPOINT="192.168.130.130"
+export WKLD_VSPHERE_CONTROL_PLANE_ENDPOINT="192.168.130.131"
 export DEPLOY_TKG_ON_VSPHERE7="true" 
 
-export VSPHERE_DATACENTER="RNOMX7kLab"
-export VSPHERE_CLUSTER="MX7k"
-export VSPHERE_DATASTORE="vsanDatastore"
-export VSPHERE_NETWORK_SWITCH="PKS"
-export VSPHERE_NETWORK_PG="PKS-VM Network-ephemeral"
-export VSPHERE_TLS_THUMBPRINT="7B:3F:5A:B9:8A:1B:AA:C7:3F:9B:EF:6D:F5:7D:E4:A7:54:9B:D1:06"
+export VSPHERE_DATACENTER="west-dc"
+export VSPHERE_CLUSTER="west-cluster"
+export VSPHERE_DATASTORE="nfsdatastore01"
+export VSPHERE_NETWORK_SWITCH="vds-west-02"
+export VSPHERE_NETWORK_PG="tanzu-management"
+export VSPHERE_TLS_THUMBPRINT="77:13:EE:0D:EB:C9:D1:7E:24:2F:AD:B7:FD:E7:5E:07:47:F9:34:C0"
 export VSPHERE_SSH_KEY=`cat ${HOME}/.ssh/id_rsa.pub`
 export VSPHERE_FOLDER="tanzu-community-edition-${INDEX}"
 export VSPHERE_RESOURCE_POOL="tanzu-community-edition-${INDEX}"
@@ -58,13 +58,17 @@ export NODE_OS_VERSION="3"
 # export NODE_OS_NAME="ubuntu"
 # export NODE_OS_VERSION="20.04"
 
-export GOVC_URL="http://$(pass provider_vcenter_hostname)"
+export GOVC_URL="https://$(pass provider_vcenter_hostname)"
 export GOVC_USERNAME=$(pass provider_vcenter_username)
 export GOVC_PASSWORD=$(pass provider_vcenter_password)
 export GOVC_INSECURE=true
 export GOVC_DATASTORE="${VSPHERE_DATASTORE}"
 export GOVC_NETWORK="${VSPHERE_NETWORK_PG}"
 
-export MY_IP_ADDRESS=`ifconfig ens192 | grep '10.8.' | awk '{ print $2}'`
+# Oracle Linux / Ubuntu
+# export MY_IP_ADDRESS=`ifconfig ens192 | grep '192.168.' | awk '{ print $2}'`
+
+# Photon OS
+export MY_IP_ADDRESS=`ifconfig eth0 | grep '192.168.' | awk '{print $2}' | cut -d ":" -f2`
 
 export METALLB_VIP_RANGE="192.168.130.240-192.168.130.250"
