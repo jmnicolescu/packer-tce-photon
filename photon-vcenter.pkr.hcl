@@ -114,6 +114,12 @@ build {
     ]
   }
 
+  post-processor "manifest" {
+    output = "photon.manifest.json"
+    strip_path = true
+  }
+}
+
 variable "vm_name" {
   type    = string
 }
