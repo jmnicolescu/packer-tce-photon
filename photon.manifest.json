@@ -302,7 +302,16 @@
       "artifact_id": "photon",
       "packer_run_uuid": "f3c1b60b-f5c6-ed6a-badd-e652da094f90",
       "custom_data": null
+    },
+    {
+      "name": "photon",
+      "builder_type": "vsphere-iso",
+      "build_time": 1640141953,
+      "files": null,
+      "artifact_id": "photon",
+      "packer_run_uuid": "0c3bba1a-7347-356c-43ca-e846c5db64b9",
+      "custom_data": null
     }
   ],
-  "last_run_uuid": "f3c1b60b-f5c6-ed6a-badd-e652da094f90"
+  "last_run_uuid": "0c3bba1a-7347-356c-43ca-e846c5db64b9"
 }

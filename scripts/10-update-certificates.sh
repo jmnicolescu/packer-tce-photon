@@ -14,7 +14,7 @@ echo "#--------------------------------------------------------------"
 # echo "Copying certs to /etc/pki/ca-trust/source/anchors."
 # mkdir -p /etc/pki/ca-trust/source/anchors
 # cp /root/certs/*.crt /etc/pki/ca-trust/source/anchors/
-
+#
 # echo "Running update-ca-trust..."
 # update-ca-trust
 # update-ca-trust force-enable
@@ -24,7 +24,7 @@ echo "#--------------------------------------------------------------"
 # echo "Copying certs to /usr/local/share/ca-certificates."
 # mkdir -p /usr/local/share/ca-certificates
 # cp /root/certs/*.crt /usr/local/share/ca-certificates/
-
+#
 # echo "Running update-ca-trust..."
 # update-ca-certificates
 
